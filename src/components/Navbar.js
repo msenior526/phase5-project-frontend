@@ -19,6 +19,11 @@ class Navbar extends React.Component {
                 exact
                 style={link}
                 >Home</NavLink>
+
+                <NavLink
+                to='/signup'
+                exact
+                style={link}>Signup</NavLink>
             </div>
         )
     }
